@@ -7,7 +7,6 @@ int main()
 	system("chcp 65001");
 	ChessEngine chess;
 	while (true) {
-		system("cls");
 		chess.draw_current_state();
 		std::getchar();
 	}
